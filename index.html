@@ -12,7 +12,7 @@
     <title>ICSSC - Information & Computer Science Student Council</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -23,7 +23,7 @@
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
     <!-- Theme CSS -->
-    <link href="css/creative.min.css" rel="stylesheet">
+    <link href="css/creative.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -43,7 +43,7 @@
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
+                <a class="navbar-brand page-scroll" href="#page-top">Top of Page</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -71,10 +71,10 @@
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1 id="homeHeading">Your Favorite Source of Free Bootstrap Themes</h1>
+                <h1 id="homeHeading">Edit this later...</h1>
                 <hr>
-                <p>Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+                <p>Edit this later......</p>
+                <!--  <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>  -->
             </div>
         </div>
     </header>
@@ -112,17 +112,83 @@
                         <li>
                             Creating partnerships between the academics of our campus and related intustries.
                         </li>
-
-
-
-                    
+						
                     <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="committees">
+   <aside class="bg-dark">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <h2>Learn More About What We Do!</h2>
+            </div>
+        </div>
+    </aside>
+	
+    <section class="no-padding" id="committees">		
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+					<img src="https://cdn.pixabay.com/photo/2017/02/22/09/40/hands-2088954_960_720.jpg" alt="Meeting">
+					<div class="carousel-caption text-center">
+						<h1>Corporate Outreach Committee</h1>	
+						<ul>
+							<li>Help connect technical recruiters with ICS School talent 	</li>	
+							<li>Coordinate info sessions with local companies				</li>
+							<li>Network with hiring managers and ICS Alumni					</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="item">
+					<img src="https://cdn.pixabay.com/photo/2016/02/19/11/19/computer-1209641_960_720.jpg" alt="Coding">
+					<div class="carousel-caption text-center">
+						<h1>Projects Committee</h1>
+						<ul> 
+							<li>Learn and apply new things		</li>	
+							<li>Collaborate	together			</li>	
+							<li>Create cool projects			</li>	
+						</ul>
+					</div>
+				</div>
+
+				<div class="item">
+					<img src="https://scontent-sjc2-1.xx.fbcdn.net/v/t1.0-9/14462937_1210932038965597_7609619388903140572_n.jpg?oh=f69461443f47f741bf6b7036bbb63c9b&oe=5995A70E" alt="Event">
+					<div class="carousel-caption text-center">
+						<h1>Student Events Committee</h1>
+						<ul>
+							<li>Plan socials and events (including ICS Day)		</li>
+							<li>Market events on various platforms				</li>
+							<li>Handle event logistics 							</li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+
+			<!-- Left and right controls -->
+			<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>		
+    </section>
+
+		<section id="icsday">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -164,113 +230,15 @@
             </div>
         </div>
     </section>
-
-    <section class="no-padding" id="icsday">
-        <div class="container-fluid">
-            <div class="row no-gutter popup-gallery">
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/2.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/3.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/4.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/4.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/5.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/5.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/6.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/6.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <aside class="bg-dark">
+	
+	 <aside class="bg-dark">
         <div class="container text-center">
-            <div class="call-to-action">
-                <h2>Free Download at Start Bootstrap!</h2>
-                <a href="http://startbootstrap.com/template-overviews/creative/" class="btn btn-default btn-xl sr-button">Download Now!</a>
+            <div class="">
+                <h2>Contact Us!</h2>
             </div>
         </div>
     </aside>
-
+	
     <section id="contact">
         <div class="container">
             <div class="row">
@@ -290,7 +258,7 @@
             </div>
         </div>
     </section>
-
+	
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
 
@@ -303,7 +271,7 @@
     <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
     <!-- Theme JavaScript -->
-    <script src="js/creative.min.js"></script>
+    <script src="js/creative.js"></script>
 
 </body>
 

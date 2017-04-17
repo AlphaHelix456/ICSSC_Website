@@ -60,5 +60,7 @@
             tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
         }
     });
+	
+	//$("div.item p,h1").css({"font-size":"1.5em", "font-weight":"bold", "color":"#000"});
 
 })(jQuery); // End of use strict

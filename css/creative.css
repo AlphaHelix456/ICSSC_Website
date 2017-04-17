@@ -155,7 +155,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/header.jpg');
+  background-image: url('http://www.phenomenaproject.tv/wp-content/uploads/2015/03/under-construction-template1.jpg');
   text-align: center;
   color: white;
 }
@@ -416,3 +416,26 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #222222;
 }
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+}
+
+img {
+    -webkit-filter: blur(2px) brightness(75%); /* Safari 6.0 - 9.0 */
+    filter: blur(2px) brightness(75%);
+}
+   
+.carousel-caption ul{
+	list-style-type: none;
+	padding-left:0px;
+	overflow:auto;
+}
+  
+.carousel-caption li{
+	font-size: 1.25em;
+	padding: 5px;
+}
+
