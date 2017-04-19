@@ -4,6 +4,9 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 html,
+/* Custom Classes */
+
+/* Custom Classes */
 body {
   height: 100%;
   width: 100%;
@@ -43,7 +46,8 @@ p {
   margin-bottom: 20px;
 }
 .bg-primary {
-  background-color: #F05F40;
+  background-color: #2F2FA2;
+  color: #F64C72;
 }
 .bg-dark {
   background-color: #222222;
