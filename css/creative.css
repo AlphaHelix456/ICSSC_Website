@@ -5,10 +5,6 @@
  */
 html,
 /* Custom Classes */
-#logoics{
-  background-image: url("https://student-council.ics.uci.edu//wp-content/uploads/scouncil/2016/05/Staff_Cover_photo-500x185.png");
-
-}
 
 /* Custom Classes */
 body {
@@ -163,7 +159,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('http://www.phenomenaproject.tv/wp-content/uploads/2015/03/under-construction-template1.jpg');
+  background-image: url('https://scontent-ord1-1.xx.fbcdn.net/v/t1.0-9/15665431_1301783983213735_1017818477795434024_n.jpg?oh=fdb1a246dd99b502d5045a8ed74f11c0&oe=597AFD39');
   text-align: center;
   color: white;
 }
