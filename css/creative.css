@@ -97,6 +97,7 @@ aside {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
+
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
@@ -178,7 +179,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('https://scontent-ord1-1.xx.fbcdn.net/v/t1.0-9/15665431_1301783983213735_1017818477795434024_n.jpg?oh=fdb1a246dd99b502d5045a8ed74f11c0&oe=597AFD39');
+  background-image: url('https://cdn.cloudpix.co/images/science-wallpapers/computer-science-wallpaper-hd-nanobit-technology-new-hd-computer-wallpapers-wallpaper-for-mobile-free-download-of-love-latest-year-happy-wallpaper-4cdd083f6fe64907d1abb7adafa4b261-large-129639.jpg');
   text-align: center;
   color: white;
 }
@@ -222,10 +223,10 @@ header .header-content .header-content-inner p {
     margin-right: auto;
   }
   header .header-content .header-content-inner h1 {
-    font-size: 50px;
+    font-size: 100px;
   }
   header .header-content .header-content-inner p {
-    font-size: 18px;
+    font-size: 26px;
     max-width: 80%;
     margin-left: auto;
     margin-right: auto;
