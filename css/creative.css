@@ -17,8 +17,12 @@
 .large-font{
   font-size: 100px;
 }
+
+
+
 /* Custom Classes */
-html,body {
+html, body {
+
   height: 100%;
   width: 100%;
 }
@@ -442,7 +446,7 @@ body {
       margin: auto;
 }
 
-img {
+.carousel img {
     -webkit-filter: blur(2px) brightness(75%); /* Safari 6.0 - 9.0 */
     filter: blur(2px) brightness(75%);
 }
