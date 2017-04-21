@@ -1,3 +1,15 @@
+//ics day snipet
+
+$(".hover").mouseleave(
+    function () {
+        $(this).removeClass("hover");
+    }
+);
+
+//ics day snippet close
+
+
+
 (function($) {
     "use strict"; // Start of use strict
 

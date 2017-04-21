@@ -1,0 +1,3 @@
+- make main background image darker
+- change ics day colors to normal colors
+-change about us to look more appealing, different
