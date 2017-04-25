@@ -1,3 +1,5 @@
 - make main background image darker
 - change ics day colors to normal colors
 -change about us to look more appealing, different
+
+- link ken 3 ics pictures that are fullscreen to ken.
