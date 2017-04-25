@@ -20,6 +20,14 @@
 .large-font{
   font-size: 100px;
 }
+.inline-block{
+  display: block;
+}
+.center{
+  text-align: center;
+}
+
+
 
 
 
