@@ -39,6 +39,17 @@
   color: black;
 }
 
+.board-members img{
+	width: 100%;
+	opacity: 0.5;
+}
+
+.board-members-opacity-off{
+	 opacity: 1.0;
+}
+
+.mySlides {display:none}
+.demo {cursor:pointer}
 
 
 
