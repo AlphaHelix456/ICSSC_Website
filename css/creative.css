@@ -19,7 +19,7 @@
 }
 
 .test-background{
-	background-color: #FF7F50;
+	background-color: #E3C598;
 }
 
 .large-font{
@@ -44,9 +44,10 @@
   color: black;
 }
 
-.board-members img{
+.board-members{
 	width: 100%;
 	opacity: 0.5;
+	
 }
 
 .board-members-opacity-off{
