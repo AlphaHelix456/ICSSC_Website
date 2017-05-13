@@ -44,10 +44,13 @@
   color: black;
 }
 
-.board-members{
-	width: 100%;
-	opacity: 0.5;
-	
+.board-members-opacity{
+	 opacity: 0.5;
+	 width: 100%;
+}
+
+.board-members-opacity:hover{
+	opacity: 1.0;
 }
 
 .board-members-opacity-off{
