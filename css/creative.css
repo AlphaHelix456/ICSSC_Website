@@ -481,6 +481,10 @@ header .header-content .header-content-inner p {
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     font-size: 20px;
   }
+  .carousel-caption li{
+	font-size: 1.75vw;
+	padding: 5px;
+}
 }
 .call-to-action h2 {
   margin: 0 auto 20px;
@@ -636,12 +640,12 @@ body {
 	padding-left:0px;
 	overflow:auto;
 }
-  
+/*
 .carousel-caption li{
 	font-size: 1.75vw;
 	padding: 5px;
 }
-
+*/
 .carousel-caption h1{
 	font-size: 2.5vw;
 }
