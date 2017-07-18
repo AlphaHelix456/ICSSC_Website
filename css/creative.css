@@ -375,7 +375,6 @@ header .header-content .header-content-inner p {
   padding: 0px 25px 0px 25px;
   line-height: 110%;
   font-family: 'Raleway', sans-serif;
-
 }
 .donaldBren{
   color: black;
@@ -652,4 +651,10 @@ body {
     src: url("Pixel Emulator.otf");
 }
 
+label{
+  font-weight: 200;
+}
+.password{
+  padding-bottom: 20px;
+}
 
