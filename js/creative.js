@@ -1,5 +1,7 @@
 //ics day snipet
 
+
+
 $(".hover").mouseleave(
     function () {
         $(this).removeClass("hover");

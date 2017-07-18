@@ -189,7 +189,6 @@ a:focus {
   color: cornflowerblue;
 }
 h1,
-h3,
 h4,
 h5,
 h6 {
@@ -340,20 +339,22 @@ aside {
 header {
   position: relative;
   width: 100%;
-  min-height: auto;
+  height: 667px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('https://cdn.cloudpix.co/images/science-wallpapers/computer-science-wallpaper-hd-nanobit-technology-new-hd-computer-wallpapers-wallpaper-for-mobile-free-download-of-love-latest-year-happy-wallpaper-4cdd083f6fe64907d1abb7adafa4b261-large-129639.jpg');
+  /*background-image: url('https://cdn.cloudpix.co/images/science-wallpapers/computer-science-wallpaper-hd-nanobit-technology-new-hd-computer-wallpapers-wallpaper-for-mobile-free-download-of-love-latest-year-happy-wallpaper-4cdd083f6fe64907d1abb7adafa4b261-large-129639.jpg');
+  */
+  background-color: steelblue;
   text-align: center;
   color: white;
 }
 header .header-content {
   position: relative;
   text-align: center;
-  padding: 100px 15px 100px;
+  padding: 200px 15px 100px;
   width: 100%;
 
 }
@@ -368,13 +369,22 @@ header .header-content .header-content-inner hr {
   margin: 30px auto;
 }
 header .header-content .header-content-inner p {
-  font-weight: 300;
-  color: rgba(255, 255, 255, 1);
-  font-size: 18px;
-  margin-bottom: 50px;
-  background-color: black;
-  padding:25px;
+  font-weight: 100;
+  color: ghostwhite;
+  font-size: 20px;
+  padding: 0px 25px 0px 25px;
+  line-height: 110%;
+  font-family: 'Raleway', sans-serif;
+
 }
+.donaldBren{
+  color: black;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 110%;
+  font-family: 'Raleway', sans-serif;
+}
+
 @media (min-width: 768px) {
   header {
     min-height: 100%;
@@ -641,3 +651,5 @@ body {
     font-family: pixelFont;
     src: url("Pixel Emulator.otf");
 }
+
+
