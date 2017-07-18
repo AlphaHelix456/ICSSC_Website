@@ -5,14 +5,22 @@
  */
 
 /* Custom Classes */
+
+
 .blue-text{
-  color: #123C69;
+  color: black;
+}
+
+span{
+  color: darkblue;
+  font-size: 120%;
+  font-weight: 400;
 }
 .red-text{
-  color: #C0392B;
+  color: darkblue;
 }
 .peach-text{
-  color: #EDC7B7;
+  color: white;
 }
 .peach-background{
   background-color: #EEE;
@@ -120,7 +128,7 @@
   font-weight: 700;
 }
 .snip1581 .title2 {
-  color: #a58e7c;
+  color: cornflowerblue;
   font-weight: 300;
 }
 .snip1581 .title3 {
@@ -140,7 +148,15 @@
   transform: scale(1.3) rotate(5deg);
 }
 
+#meetings{
+  font-size: 18px;
+}
 
+.meetingsLink{
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+}
 
 /* little snippets for ics day tab */
 
@@ -155,8 +171,8 @@ body {
   font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 hr {
-  border-color: #EDC7B7;
-  border-width: 3px;
+  border-color: black;
+  border-width: 1px;
   max-width: 50px;
 }
 hr.light {
@@ -170,7 +186,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #AC3B61;
+  color: cornflowerblue;
 }
 h1,
 h3,
@@ -180,9 +196,9 @@ h6 {
 
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 1px;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 h2{
@@ -206,20 +222,21 @@ p {
   line-height: 1.5;
   margin-bottom: 20px;
   font-family: 'Lato', sans-serif;
+  font-weight: 200;
 }
 .bg-primary {
   background-color: #EEE2DC;
-  color: #AC3B61;
+  color: cornflowerblue;
 }
 .bg-dark {
-  background-color: #123C69;
+  background-color: #333;
   color: white;
 }
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }
 section {
-  padding: 100px 0;
+  padding: 40px 0;
 }
 aside {
   padding: 50px 0;
@@ -242,7 +259,7 @@ aside {
   transition: all 0.35s;
 }
 .navbar-default .navbar-header .navbar-brand {
-  color: #AC3B61;
+  color: darkblue;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   text-transform: uppercase;
@@ -250,7 +267,7 @@ aside {
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-  color: #EDC7B7;
+  color: cornflowerblue;
 }
 .navbar-default .navbar-header .navbar-toggle {
   font-weight: 400;
@@ -267,11 +284,11 @@ aside {
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: #EDC7B7;
+  color: cornflowerblue;
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: #EDC7B7 !important;
+  color: cornflowerblue !important;
   background-color: transparent;
 }
 .navbar-default .nav > li.active > a:hover,
@@ -304,12 +321,12 @@ aside {
     border-color: rgba(34, 34, 34, 0.05);
   }
   .navbar-default.affix .navbar-header .navbar-brand {
-    color: #AC3B61;
+    color: darkblue;
     font-size: 14px;
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
   .navbar-default.affix .navbar-header .navbar-brand:focus {
-    color: #EDC7B7;
+    color: royalblue;
   }
   .navbar-default.affix .nav > li > a,
   .navbar-default.affix .nav > li > a:focus {
@@ -317,7 +334,7 @@ aside {
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
-    color: #EDC7B7;
+    color: royalblue;
   }
 }
 header {
@@ -338,7 +355,6 @@ header .header-content {
   text-align: center;
   padding: 100px 15px 100px;
   width: 100%;
-  height: 667px /* cleider */
 
 }
 header .header-content .header-content-inner h1 {
@@ -413,7 +429,7 @@ header .header-content .header-content-inner p {
   color: white;
   opacity: 0;
   display: block;
-  background: rgba(240, 95, 64, 0.9);
+  background: blue;
   position: absolute;
   bottom: 0;
   text-align: center;
@@ -461,7 +477,7 @@ header .header-content .header-content-inner p {
   margin: 0 auto 20px;
 }
 .text-primary {
-  color: #EDC7B7;
+  color: cornflowerblue;
 }
 .no-gutter > [class*='col-'] {
   padding-right: 0;
@@ -516,8 +532,8 @@ fieldset[disabled] .btn-default.active {
   background-color: #123C69;
 }
 .btn-primary {
-  color: white;
-  background-color: #EDC7B7;
+  color: black;
+  background-color: cornflowerblue;
   border-color: #EDC7B7;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
@@ -530,8 +546,8 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #AC3B61;
-  border-color: #AC3B61;
+  background-color: blue;
+  border-color: blue;
 }
 .btn-primary:active,
 .btn-primary.active,
