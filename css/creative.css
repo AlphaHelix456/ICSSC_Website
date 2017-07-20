@@ -182,8 +182,10 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: black;
+  color: grey;
 }
+
+
 a:hover,
 a:focus {
   color: cornflowerblue;
@@ -193,7 +195,6 @@ h4,
 h5,
 h6 {
 
-  text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   letter-spacing: 1px;
@@ -639,6 +640,7 @@ body {
 	list-style-type: none;
 	padding-left:0px;
 	overflow:auto;
+  font-size: 18px;
 }
 /*
 .carousel-caption li{
@@ -647,7 +649,9 @@ body {
 }
 */
 .carousel-caption h1{
-	font-size: 2.5vw;
+	font-size: 25px;
+    color: white;
+  font-weight: 200;
 }
 
 @font-face {
@@ -665,4 +669,18 @@ label{
 .bottomText{
   color: grey;
 }
+/* change carousel image with size of screen */
 
+@media screen and (max-width: 520px) {
+  .Image1 {
+    content: url("beach.jpg");
+
+  }
+  .Image2 {
+    content: url("beach.jpg");
+  }
+  .Image3 {
+    content: url("beach.jpg");
+  }
+
+}
